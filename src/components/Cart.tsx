@@ -35,7 +35,7 @@ export default function Cart() {
                             />
                             <div>
                                 <p className="text-sm font-medium text-neutral-800">
-                                    {item.title.slice(0, 15)}...
+                                    {item.title.slice(0, 5)}...
                                 </p>
                                 <p className="text-xs text-neutral-500">
                                     ${item.price.toFixed(2)} x {item.quantity}
